@@ -1,0 +1,49 @@
+html, body {
+  margin: 0;
+  background: url("../images/background.jpg");
+  background-position: 30% 0;
+}
+
+img {
+	width: 380px;
+	height: 300px;
+	margin: 5px;
+}
+
+.pull-right ul li  {
+  float: left;
+  list-style: none;
+  padding: 5px 13px ;
+
+}
+/*
+.pull-right ul li:hover {
+	background: red;
+	color: white;
+
+}
+*/
+
+.nav nav-pills {}
+.pull-right ul li a {
+	color: red;
+
+}
+.navbaR  ul li  {
+  float: left;
+  list-style: none;
+  padding: 5px 13px ;
+  color: black;
+}
+.navbaR  ul li:nth-child(3){
+	 float: none;
+}
+
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+	background: red;
+}
+
+
+
+

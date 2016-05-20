@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" name="name" content="content">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel='stylesheet' href='css/style.css' />
+  <script type="text/javascript" src="script/jquery-2.2.1.js"></script>
+</head>
+
+<body>
+
+<div class="header">
+	<div class="container">
+		<div class="col-md-4">
+			<h3>Samir Kerimov</h3>
+		</div>
+		<div class="pull-right ">
+           <ul class="nav nav-pills">
+			<li class="active" id="all"><a href="#">All</a></li>
+			<li role="presentation" id="consumer"><a href="#">Consumer</a></li>
+			<li role="presentation" id="mobile"><a href="#">Mobile</a ></li>
+			<li  role="presentation" id="commerce"><a href="#">Commerce</a></li>
+			<li  role="presentation" id="enterprice"><a href="#">Enterprice</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="main">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 "><img class="firstI" src="images/1.jpg"></div>
+			<div class="col-md-4"><img img class="secondI" src="images/1.jpg"></div>
+			<div class="col-md-4"><img src="images/1.jpg"></div>
+		</div>
+		<div class="row">
+			<div class="col-md-4  "><img src="images/1.jpg"></div>
+			<div class="col-md-4"><img src="images/1.jpg" class="fifthI"></div>
+			<div class="col-md-4"><img src="images/1.jpg"></div>
+
+		</div>
+		<div class="row">
+			<div class="col-md-4 "><img src="images/1.jpg"></div>
+			<div class="col-md-4"><img src="images/1.jpg"></div>
+			<div class="col-md-4"><img src="images/1.jpg"></div>
+		</div>
+
+	</div>
+</div>
+
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 navbaR">
+			<ul>
+				<li>Email</li>
+				<li>Linkedin</li>
+				<li>Twitter</li>
+				<li>Blog</li>
+			</ul>
+			</div>
+			<div class="pull-right">&copy;2016</div>
+		</div>
+	</div>
+
+</div>
+
+
+</body>
+
+</html>
+
+<script type="text/javascript">
+$(document).ready(function(){
+$("li").click(function(){
+	$(".active").removeClass("active");
+	$(this).addClass("active");
+	$(".firstI, .fifthI").css("border","3px solid green")
+})
+
+})
+
+
+</script>

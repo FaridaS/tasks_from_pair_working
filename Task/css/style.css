@@ -1,0 +1,338 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background: black;
+}
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.jumbotron {
+  height: 800px;
+ background-image: url('../images/home.jpg');
+ background-size: 100% 100%;
+}
+
+.nav {
+  height: 40px;
+  width: 100%;
+  margin: 0;
+  padding: 10px 0;
+  background: black;
+}
+
+.nav li {
+  list-style-type: none;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  float:left;
+  padding: 15px;
+  text-transform: uppercase;
+}
+
+.main {
+  position: relative;
+  top: 180px;
+  text-align: center;
+}
+
+.main h1 {
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  margin-top: 0;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
+
+
+.btn-main {
+  background-color: #333;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border:0;
+}
+
+.supporting {
+  padding-top: 80px;
+  padding-bottom: 100px;
+ 
+}
+.btn-second {
+  background: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 1.3px;
+  padding: 12px 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid black;
+}
+
+.supporting .col {
+  float: left;
+  width: 33%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.supporting img {
+  height: 32px;
+}
+
+.supporting h2 {
+  font-weight: 600;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+.supporting p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 50px;
+  margin-bottom: 40px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.footer p {
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+@media (max-width: 500px) {
+  .main h1 {
+    font-size: 50px;
+    padding: 0 40px;
+  }
+
+  .supporting .col {
+    width: 100%;
+  }
+}
+.bb {
+  background: #CE6458;
+}
+
+.firstP ul{
+  padding:right;
+  margin-left:300px;
+  background: #CE6458;
+}
+
+.firstP li {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  display: inline-block;
+  float:left;
+
+}
+
+.firstP li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 20px;
+}
+.nav li a:hover {
+  text-decoration: underline;
+}
+.main button{
+  border:1px solid white;
+  background: none;
+  color: white;
+}
+
+ .tCenter {
+  text-align: center;
+
+ }
+ .tCenter p:first-child {
+ font-size: 25px;
+ }
+ .secondP {
+ background: #f0f0f0;
+  background-size: cover;
+}
+ .secondP img{
+  height: 200px;
+  width: 200px;
+
+
+ }
+
+.thirdP h1 {
+  padding-left: 300px;
+  font-size: 30px;
+}
+
+.thirdP ul {
+  padding-left: 230px;
+}
+
+.thirdP ul li {
+  float: left;
+  list-style: none;
+  padding: 5px 13px ;
+  color: black;
+}
+
+.thirdP img{
+
+  width: 300px;
+  height: 280px;
+  margin: 5px;
+}
+.bigD {
+  height: 400px;
+  background: url("../images/1.jpg");
+  background-size: cover; 
+  text-align: center;
+}
+
+.forthP img {
+  width: 300px;
+  height: 200px;
+}
+
+.imageGallery{
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+}
+.forthP button {
+ margin-left: 110px;
+ color:gray
+ margin-top: 50px;
+ border: 3px solid gray;
+ text-align: center;
+}
+.forthP h3 {
+  padding-top: 150px;
+  color:gray;
+}
+.oct18 {
+  border: 1px solid black;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+}
+.red {
+  color: red;
+}
+
+
+.fifthHeader{
+  height: 300px;
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+  background: #f0f0f0;
+}
+
+
+.fifthHeader li {
+  float: left;
+  margin: 30px;
+  list-style: none;
+  font-family: Apple Chancery;
+}
+.fifthHeader ul {
+  padding-top:45px;
+  padding-left:250px;
+  float:both;
+}
+.fifth{
+  height: 50px;
+   width: 100%;
+
+}
+
+.fifthMiddle .row{
+  text-align: center;
+  margin-top : 30px;
+  margin-left: 0;
+
+}
+
+.recentB{
+ height: 50px;
+ width: 200px;
+ text-align: center;
+ margin-top: 50px;
+ margin-left: 330px;
+}
+
+.lorik {
+  text-align: center;
+  margin: 15px 90px 50px 0;
+}
+.middleD{
+  border:1px solid black;
+  width: 20px;
+  margin-left: 420px;
+}
+.andS{
+  margin-left: 555px;
+}
+.md2{
+  
+  margin: 10px;
+}
+.sr-only {
+  height: 500px;
+}
+
+.checkF{
+  padding: 8px;
+  margin-left: 10px;
+}
+.checkS{
+  margin-left: 16px;
+  padding-bottom: 15px;
+
+}
+.checkT {
+width: 500px;
+width: 500px;
+
+}
+.fifthFooter {
+  height: 200px;
+  background-size: hover;
+   clear: both;
+   border:1px solid gray;
+}
+.fa-twitter{
+  float-left;
+  clear: both;
+}
+
+
+

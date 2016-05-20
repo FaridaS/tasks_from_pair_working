@@ -1,0 +1,54 @@
+html, body {
+  margin: 0;
+}
+
+h1, h2, a {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/* Main */
+.main {
+  text-align: center;
+  height: 600px;
+}
+
+.main .container {
+  position: relative;
+  top: 100px;
+}
+
+/* Supporting */
+.supporting {
+  background-color: #1c1c1c;
+  text-align: center;
+  padding: 50px 0 80px;
+}
+
+
+
+.clearfix {
+  clear: both;
+}
+
+
+/* Feature */
+.feature {
+  height: 600px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+
+
+/* Footer */
+.footer {
+  height: 600px;
+  text-align: center;
+  padding: 0 20px;
+}

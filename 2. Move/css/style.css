@@ -1,0 +1,86 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, a {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  color: orange;
+  display:inline;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+
+/* Main */
+.main {
+  text-align: center;
+  height: 600px;
+  background: url('../images/bg.jpg');
+   background-size: cover;
+   background-position:0 70% ;
+}
+
+.main .container {
+  position: relative;
+  top: 100px;
+}
+.main h1 {
+  color: white;
+  font-size: 8em;
+}
+.main input {
+  /*width: 250px;*/
+  padding: 5px 10px;
+}
+/* Supporting */
+.supporting {
+  height: 300px;
+  background-color: #1c1c1c;
+  text-align: center; 
+  /*padding: 80px 80px;*/
+}
+.supporting .container {
+  width: auto;
+  position: relative;
+  margin: ;
+  top:0;
+}
+.supporting div {
+  width: 300px;
+  padding: 20px;
+  display: inline-block;
+}
+
+
+.clearfix {
+  clear: both;
+}
+
+
+/* Feature */
+.feature {
+  height: 600px;
+  text-align: center;
+  padding: 0 20px;
+  background-image: url('../images/feature.jpg');
+  background-size: cover;
+   background-position:0 70% ;
+}
+
+
+
+/* Footer */
+.footer {
+  height: 600px;
+  text-align: center;
+  padding: 0 20px;
+  background-image: url('../images/footer.jpg');
+    background-size: cover;
+   background-position:0 70% ;
+
+}
